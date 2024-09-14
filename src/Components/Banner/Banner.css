@@ -1,0 +1,30 @@
+.Banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    gap: 15%;
+    margin: 5% auto ;
+}
+.banner_data{
+    width: 50%;
+}
+.banner_data h1{
+    font-size: 4rem ;
+    line-height: 70px;
+}
+.banner_data p{
+    margin-top: 25px;
+    font-size: 1.2rem ;
+}
+.banner_image{
+    width: 50%;
+}
+.banner_image img{
+    object-fit: contain;
+    width: 100%;
+}
+.DownloadButton{
+    display: flex;
+    gap: 5%;
+}

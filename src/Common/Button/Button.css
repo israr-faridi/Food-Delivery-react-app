@@ -1,0 +1,81 @@
+.primaryBtn {
+    background-color: #E94339;
+    color: #fff;
+    border: #E94339;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    border-radius: 20px;
+}
+
+.primaryBtn:hover {
+    background: none !important;
+    border: none !important;
+    color: #E94339 !important;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.WheatBtn {
+    background: none !important;
+    border: none !important;
+    color: #000;
+    font-weight: 600;
+    transition: all 0.3s;
+    padding: 12px 15px;
+    border-radius: 20px;
+
+}
+
+.WheatBtn:hover {
+    background-color: #E94339 !important;
+    color: #fff;
+    border: #E94339;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    border-radius: 20px;
+}
+
+
+.DownloadBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    padding: 10px 12px;
+    /* padding-bottom: 18px; */
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn_data {
+    width: 70%;
+    margin-left: 4px;
+    line-height: 18px;
+    text-align: start;
+
+}
+
+.download_para {
+    margin-top: 0% !important;
+    font-size: 0.7rem !important;
+    /* margin-left: 5px; */
+    font-weight: 700;
+}
+
+.btn_data h4 {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+}
+
+.DownloadBtn .image {
+    width: 18%;
+    margin-right: 10px;
+    /* margin-right: 10px; */
+}
+
+.DownloadBtn .image img {
+    width: 100%;
+    object-fit: contain;
+}

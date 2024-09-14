@@ -1,0 +1,19 @@
+.SearchBar{
+    /* border: 1px solid; */
+    margin-top: 8%;
+    margin-bottom: 2%;
+    width: 80%;
+    background-color: #F6F6F6 !important;
+    padding: 5px 2px;
+    border-radius: 20px;
+}
+.SearchBarInput{
+    width: 76%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border: none;
+    outline: none;
+    color: #E94339;
+    font-weight: 600;
+}

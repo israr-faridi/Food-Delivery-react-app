@@ -1,0 +1,26 @@
+.Header {
+    display: flex;
+    max-width: 85%;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.button {
+    /* margin-left: 20px; */
+    border: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
