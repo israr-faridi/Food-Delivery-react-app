@@ -76,6 +76,7 @@
 
 .comments {
     text-align: center;
+    margin-bottom: 7%;
 }
 
 .comments_Image {
@@ -119,4 +120,19 @@
 .active{
     background-color: #FF5331;
     color: #fff;
+}
+
+.subscribe{
+    background-color: #FFEFEC;
+    width: 100%;
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe_data{
+    width: 50%;
+}
+.subscribe_input{
+    width: 40%;
 }

@@ -1,9 +1,11 @@
 import React from 'react'
 import BottomHeading from '../../Common/BottomHeading/BottomHeading'
 import './Bottom.css'
+import SearchBar from '../../Common/SearchBar/SearchBar'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Cards } from '../Cards/Cards'
 import { SmallCard1, SmallCard2, SmallCard3 } from '../../Utiles/constant/cards'
+import Footer from '../Footer/Footer';
 // import DoubleCard from '../Cards/DoubleCard'
 const Bottom = () => {
   return (
@@ -62,19 +64,33 @@ const Bottom = () => {
 
       <div className="comments">
         <img className='comments_Image' src="/assets/images/Vector.png" alt="image" />
-        <p className='commentsPara'><i>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi”</i></p>
+        <p className='commentsPara'><i>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi”</i></p>
         <h4 className='author_comments'>Mitchell Marsh</h4>
         <p className='author_position'>CEO, Bexon Agency</p>
 
         <div className="arrows">
           <div className="arrow">
-          <IoIosArrowBack />
+            <IoIosArrowBack />
           </div>
           <div className="arrow active">
-          <IoIosArrowForward />
+            <IoIosArrowForward />
           </div>
         </div>
       </div>
+
+
+      <div className="subscribe">
+        <div className="subscribe_data">
+        <h1>Subscribe our newsletter</h1>
+        <p>Browse local restaurants and businesses for delivery by entering your address blow.</p>
+        </div>
+        <div className="subscribe_input">
+          <SearchBar />
+        </div>
+      </div>
+
+      <Footer />
 
     </div>
   )
